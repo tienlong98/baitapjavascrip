@@ -1,0 +1,22 @@
+.naiyo {
+  text-align: center;
+}
+
+.naiyo h1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.naiyo img {
+  border-radius: 15px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.naiyo p {
+  text-align: left;
+  font-size: 15px;
+}
+/*# sourceMappingURL=filenho.css.map */

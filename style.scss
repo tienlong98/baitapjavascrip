@@ -1,0 +1,152 @@
+/**/
+
+html {
+    background: #a1ffce;
+    background: linear-gradient(to right, #a1ffce, #faffd1);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.giohang {
+    width: 80%;
+    min-height: 24em;
+    box-shadow: 0px 4px 4px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    background: white;
+    padding-bottom: 50px;
+    .header {
+        background: #00b712;
+        border-radius: 15px 15px 0 0;
+        position: relative;
+        text-align: center;
+        .fix-img {
+            position: relative;
+            top: 35px;
+        }
+    }
+    .noidung {
+        padding-left: 10px;
+        padding-right: 10px;
+        h3 {
+            margin-top: 50px;
+            text-align: center;
+        }
+        .items {
+            display: flex;
+            justify-content: space-between;
+            .stb-img {
+                max-width: 30%;
+                .fix-stb-img {
+                    object-fit: cover;
+                    object-position: center;
+                }
+            }
+            .stb-sl {
+                display: flex;
+                align-items: center;
+                button {
+                    padding: 5px;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                }
+                input {
+                    width: 30px;
+                    height: 20px;
+                    padding: 5px;
+                    text-align: center;
+                }
+            }
+            .stb-tt {
+                display: flex;
+                align-items: center;
+                margin-right: 15px;
+            }
+            .stb-name {
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+    .kaike {
+        margin: 30px 10px 20px 10px;
+        background: antiquewhite;
+        .css-tt {
+            padding-left: 15px;
+            padding-right: 15px;
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+        }
+    }
+    .css-bt-tt {
+        background: #00b712;
+        border-radius: 10px;
+        margin: 0 15px 20px 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .sticker {
+        padding: 15px;
+        .style-cy {
+            font-weight: bold;
+            font-size: 20px;
+            text-align: center;
+        }
+        .img-stk {
+            display: flex;
+            justify-content: space-around;
+            .fix-stk {
+                border-radius: 50%;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+        #qua {
+            display: none;
+            text-align: center;
+            margin-top: 40px;
+            .btt-qs {
+                background: #a1ffce;
+                padding: 20px 40px;
+                font-size: 15px;
+                border-radius: 10px;
+                box-shadow: 2px;
+                margin-bottom: 30px;
+            }
+            #smm {
+                font-weight: bold;
+                font-size: 25px;
+                .fix-img-qua {
+                    object-fit: cover;
+                    object-position: center;
+                    border-radius: 15px;
+                }
+            }
+        }
+        .hienqua {
+            display: block !important;
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .giohang {
+        .sticker {
+            #qua {
+                #smm {
+                    font-size: 15px;
+                }
+            }
+            .style-cy {
+                font-size: 13px;
+            }
+        }
+    }
+}

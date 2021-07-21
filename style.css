@@ -1,0 +1,211 @@
+/**/
+html {
+  background: #a1ffce;
+  background: -webkit-gradient(linear, left top, right top, from(#a1ffce), to(#faffd1));
+  background: linear-gradient(to right, #a1ffce, #faffd1);
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+
+.giohang {
+  width: 80%;
+  min-height: 24em;
+  -webkit-box-shadow: 0px 4px 4px;
+          box-shadow: 0px 4px 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 15px;
+  background: white;
+  padding-bottom: 50px;
+}
+
+.giohang .header {
+  background: #00b712;
+  border-radius: 15px 15px 0 0;
+  position: relative;
+  text-align: center;
+}
+
+.giohang .header .fix-img {
+  position: relative;
+  top: 35px;
+}
+
+.giohang .noidung {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.giohang .noidung h3 {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.giohang .noidung .items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.giohang .noidung .items .stb-img {
+  max-width: 30%;
+}
+
+.giohang .noidung .items .stb-img .fix-stb-img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.giohang .noidung .items .stb-sl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.giohang .noidung .items .stb-sl button {
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.giohang .noidung .items .stb-sl input {
+  width: 30px;
+  height: 20px;
+  padding: 5px;
+  text-align: center;
+}
+
+.giohang .noidung .items .stb-tt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 15px;
+}
+
+.giohang .noidung .items .stb-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.giohang .kaike {
+  margin: 30px 10px 20px 10px;
+  background: antiquewhite;
+}
+
+.giohang .kaike .css-tt {
+  padding-left: 15px;
+  padding-right: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-weight: bold;
+}
+
+.giohang .css-bt-tt {
+  background: #00b712;
+  border-radius: 10px;
+  margin: 0 15px 20px 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.giohang .sticker {
+  padding: 15px;
+}
+
+.giohang .sticker .style-cy {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+.giohang .sticker .img-stk {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.giohang .sticker .img-stk .fix-stk {
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.giohang .sticker #qua {
+  display: none;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.giohang .sticker #qua .btt-qs {
+  background: #a1ffce;
+  padding: 20px 40px;
+  font-size: 15px;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px;
+          box-shadow: 2px;
+  margin-bottom: 30px;
+}
+
+.giohang .sticker #qua #smm {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.giohang .sticker #qua #smm .fix-img-qua {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: 15px;
+}
+
+.giohang .sticker .hienqua {
+  display: block !important;
+}
+
+@media screen and (max-width: 576px) {
+  .giohang .sticker #qua #smm {
+    font-size: 15px;
+  }
+  .giohang .sticker .style-cy {
+    font-size: 13px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

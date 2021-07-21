@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="giohang">
+        <div class="header">
+            <img class="fix-img" width="70px" src="starbuck.png">
+        </div>
+        <div class="noidung">
+            <h3>You oder from Starbuck</h3>
+            <div class="items">
+                <div class="stb-img">
+                    <a href="stb1.html"><img class="fix-stb-img" width="100%" src="stb1.png"></a>
+                </div>
+                <div class="stb-name">
+                    <p>Frappuccino</p>
+                </div>
+                <div class="stb-sl">
+
+                    <input id="stb1" type="number" value="1">
+
+                </div>
+                <div class="stb-tt">
+                    <p>500円</p>
+                </div>
+            </div>
+            <div class="items">
+                <div class="stb-img">
+                    <a href="stb2.html"><img class="fix-stb-img" width="100%" src="stb2.png"></a>
+                </div>
+                <div class="stb-name">
+                    <p>Macchiato Caramen</p>
+                </div>
+                <div class="stb-sl">
+
+                    <input id="stb2" type="number" value="1">
+
+                </div>
+                <div class="stb-tt">
+                    <p>600円</p>
+                </div>
+            </div>
+            <div class="items">
+                <div class="stb-img">
+                    <a href="stb3.html"> <img class="fix-stb-img" width="100%" src="stb3.png"></a>
+                </div>
+                <div class="stb-name">
+                    <p>Americano</p>
+                </div>
+                <div class="stb-sl">
+
+                    <input id="stb3" type="number" value="1">
+
+                </div>
+                <div class="stb-tt">
+                    <p>700円</p>
+                </div>
+            </div>
+        </div>
+        <div class="kaike">
+            <div class="css-tt">
+                <p>SubTotal</p>
+                <p id="giasp">1800円</p>
+            </div>
+            <div class="css-tt">
+                <p>Shipping Fee</p>
+                <p>100円</p>
+            </div>
+            <div class="css-tt">
+                <p>Total</p>
+                <p id="tongtien">1900円</p>
+            </div>
+        </div>
+        <button onclick="tinhtien()" class="css-bt-tt">Checkout</button>
+        <div class="sticker">
+            <p class="style-cy">*合計が5000円を超える場合は、以下の商品の1つを受け取るチャンスがあります。</p>
+            <div id="imageList" class="img-stk">
+
+            </div>
+            <div id="qua">
+                <button class="btt-qs" onclick="rdsmm()">抽選</button>
+                <div id="smm"></div>
+            </div>
+        </div>
+    </div>
+    <script src="js.js"></script>
+</body>
+
+</html>
